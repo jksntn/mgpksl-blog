@@ -2,15 +2,15 @@
 label: Podcast
 hide_body: false
 fields:
-- type: text
-  name: type
-  label: type
 - type: datetime
   name: date
   label: date
 - type: text
   name: title
   label: title
+- type: text
+  name: type
+  label: type
 - type: textarea
   name: description
   label: description
