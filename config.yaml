@@ -17,9 +17,9 @@ params:
   emoji: 🐱‍👤
   Description: >-
     Tempat saya ngomongin fotografi dan teknologi (internet, apps, windows, linux, smartphone), juga ngomongin gear, sosial, dan project. Tulisan bersifat opini.
-  favicon : "/img/favicon.ico?v=0"
-  logo : "/img/logo.svg"
-  image: "/img/header.png"
+  favicon : '/img/favicon.ico?v=0'
+  logo : '/img/logo.svg'
+  image: '/img/header.png'
 
 # Disable categories since I don't use them.
 taxonomies:
@@ -29,17 +29,17 @@ menu:
   social:
     - name: Email
       weight: 1
-      pre: "/img/email.svg"
+      pre: '/img/email.svg'
       url: mailto:jaka@megapiksel.id
     - name: Podcast
       weight: 2
-      pre: "/img/podcast.svg"
+      pre: '/img/podcast.svg'
       url: https://anchor.fm/mgpksl
     - name: Twitter
       weigth: 3
-      pre: "/img/twitter.svg"
+      pre: '/img/twitter.svg'
       url: https://twitter.com/mgpksl
     - name: Instagram
       weight: 4
-      pre: "/img/instagram.svg"
+      pre: '/img/instagram.svg'
       url: https://www.instagram.com/mgpksl
