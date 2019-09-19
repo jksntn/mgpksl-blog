@@ -3,17 +3,17 @@ label: Blog Post
 hide_body: false
 fields:
 - type: text
-  name: type
-  label: type
-- type: text
-  name: image
-  label: image
-- type: text
   name: title
   label: title
 - type: datetime
   name: date
   label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: image
+  label: image
 - type: text
   name: description
   label: description
