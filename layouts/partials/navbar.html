@@ -1,0 +1,16 @@
+{{ $isGalaxy := (eq .Section "galaxy") }}
+
+<div class='container mv3' id='header'>
+  <nav class="dt w-100 border-box pa3 ph0">
+      <a class="dtc v-mid mid-gray link dim w-25" href="{{ relURL .Site.BaseURL }}" title="Home">
+          {{ if .Site.Params.logo }}<img src="{{ .Site.Params.logo }}" class="dib w2 h2 br-100" alt="Megapiksel">{{ else }}🐱‍👤{{ end }}
+      </a>
+      <div class="dtc v-mid w-75 tr">
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main -}}
+      <a class="link fw6 dim mid-gray f5 f5-1 dib pv1 ph2" href="{{ .URL }}" >{{ .Name }}</a>
+      {{end}}
+      </div>
+  </nav>
+
+</div>

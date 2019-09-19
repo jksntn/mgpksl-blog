@@ -1,0 +1,11 @@
+{{ $img := .Page.Resources.GetMatch "*cover*" }}
+
+{{ with $img }}
+  <figure class='full'>
+    <img loading='lazy' id='banner' class='db mt0 mb3' src='{{ .RelPermalink }}'>
+  </figure>
+{{ end }}
+
+<header {{ if not $img }}class='mt4'{{ end }}>
+  <h1 class='mv2 f1'>{{ .Title }}</h1>
+</header>

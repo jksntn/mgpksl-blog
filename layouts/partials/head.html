@@ -1,0 +1,62 @@
+{{- $description := or .Description .Site.Params.Description }}
+{{- $img := or (.Page.Resources.GetMatch "*social*") (.Page.Resources.GetMatch "*cover*") (.Page.Resources.GetMatch "*thumb*") }}
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ .Title }}</title>
+<meta name="description" content="{{ $description }}">
+<link rel="canonical" href="{{ .Permalink }}">
+
+<link rel="shortcut icon" href="{{ .Site.Params.favicon }}" type="image/x-icon">
+<link rel="icon" href="{{ .Site.Params.favicon }}" type="image/x-icon">
+
+<!-- Twitter Cards -->
+<meta name="twitter:site" content="@{{ .Site.Social.twitter }}"/>
+<meta name="twitter:title" content="{{ .Title }}"/>
+<meta name="twitter:description" content="{{ $description }}"/>
+<meta name="twitter:creator" content="@{{ .Site.Social.twitter }}"/>
+{{ with $img }}
+<meta name="twitter:image:src" content="{{ .Permalink }}"/>
+<meta name="twitter:card" content="summary_large_image"/>
+{{ else }}
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image:src" content="{{ .Site.Params.Image }}"/>
+{{ end }}
+
+<!-- Open Graph -->
+<meta property="og:locale" content="{{ .Site.LanguageCode }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+{{ with $img }}
+<meta property="og:image" content="{{ .Permalink }}" />
+{{ else }}
+<meta property="og:image" content="{{ .Site.Params.Image }}" />
+{{ end }}
+
+{{ if .IsPage }}
+  {{ if not .Date.IsZero }}
+    {{ $date := .Date.Format "2006-01-02T15:04:05-07:00" }}
+    <meta property="article:published_time" content="{{ if .PublishDate.IsZero }}{{ $date }}{{ else }}{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}{{ end }}" />
+    <meta property="article:modified_time" content="{{ $date }}" />
+    <meta property="og:updated_time" content="{{ $date }}" />
+  {{ end }}
+{{ end }}
+
+{{- if not .Params.raw -}}
+  <!-- Styles -->
+  {{- $tachyons := resources.Get "css/tachyons.min.css" }}
+  {{- $glitch := resources.Get "css/glitch.css" }}
+  {{- $main := resources.Get "css/main.css" }}
+  {{- $css := slice $tachyons $main $glitch | resources.Concat "css/styles.css" | resources.Minify }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{ end }}
+
+{{- range $index, $res := .Resources.Match "*.css" }}
+  <link rel="stylesheet" href="{{ $res.RelPermalink }}">
+{{ end }}
+
+{{- with or .Params.emoji .Site.Params.emoji }}<link rel="icon" data-emoji="{{ . }}" type="image/png">{{ end }}

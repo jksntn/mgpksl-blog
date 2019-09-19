@@ -1,0 +1,18 @@
+{{ $isGalaxy := (eq .Section "galaxy") }}
+
+<footer class='container mv4 o-30 {{ if $isGalaxy }}white{{ end }}'>
+  <div class='flex flex-wrap justify-between center'>
+    <span class='f5'>&copy; megapiksel</span>
+
+    <span>
+      <ul class='list mv0 tc pa0 ml-auto-ns ma0'>
+          {{ $currentPage := . }}
+          {{ range .Site.Menus.social -}}
+            <li class='dib mr1 w1 h1'>
+              <a target='_blank' title='{{ .Name }}' href='{{ .URL }}' class='no-link dim'><img src="{{ .Pre }}"></a>
+            </li>
+          {{end}}
+      </ul>
+    </span>  
+
+</footer>

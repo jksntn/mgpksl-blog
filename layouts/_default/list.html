@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<main role='main' class='container mt4 center'>
+	<h1 class='f1 mt0 mv2'>{{ .Title }}</h1>
+
+	<div class='nested-copy-line-height'>
+		{{ .Content }}
+	</div>
+
+	{{ partial "pagination" .Paginator }}
+</main>
+
+{{ end }}
