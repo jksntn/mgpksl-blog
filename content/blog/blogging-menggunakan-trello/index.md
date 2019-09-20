@@ -18,14 +18,10 @@ Entah mengapa saya menemukan formula menulis yang unik dari yang biasa saya laku
 
 Hal ini saya temukan ketika menulis di laptop Istri saya, saya kesulitan mengakses tulisan saya di dropbox karena kebetulan saya tidak mau menambah instalan baru di laptop istri saya itu. Akhirnya saya coba membuka kembali akun Trello saya dan kemudian memulai menulis artikel untuk blog ini: Punch Club, Game Simulasi Petarung Jalanan.
 
-{{< instagram B2Om5uAHOTm >}}
-
 Aplikasi online (berbasis web) seperti Trello untuk kepentingan menulis catatan ataupun task manager lainnya yang bisa kamu coba adalah Notion.so, versi gratisnya membatasi kamu untuk membuat 1000 blok, yang menurut saya lebih enak menggunakan Trello sekalian
 
 ## Mari bahas yang dari sisi Tumblr
 Kekurangan (yang saya rasakan) ketika saya menulis markdown adalah tidak ada fitur upload gambar (ketika mode markdown diaktifkan) di Tumblr, kamu baru bisa mengupload gambar ketika modenya diubah menjadi Rich Text.
-
-{{< tweet 1174148829798707200 >}}
 
 Kamu bisa mengupload gambar kamu dulu (pakai mode Rich Text) atau kamu upload gambar kamu ke hosting gambar seperti imgur dan sebagainya. Namun pekerjaan jadi agak lama karena harus mengurus gambar ini.
 
