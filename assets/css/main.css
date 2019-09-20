@@ -27,10 +27,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: var(--light-blue);
-}
-
 .no-link,
 .no-link:active,
 .no-link:visited {
