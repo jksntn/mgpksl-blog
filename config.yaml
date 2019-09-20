@@ -24,6 +24,11 @@ params:
 # Disable categories since I don't use them.
 taxonomies:
   tag: tags
+  
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
 
 menu:
   social:

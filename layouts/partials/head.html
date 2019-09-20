@@ -59,4 +59,8 @@
   <link rel="stylesheet" href="{{ $res.RelPermalink }}">
 {{ end }}
 
+{{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+
 {{- with or .Params.emoji .Site.Params.emoji }}<link rel="icon" data-emoji="{{ . }}" type="image/png">{{ end }}
