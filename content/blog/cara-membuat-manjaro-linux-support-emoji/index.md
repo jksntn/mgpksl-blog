@@ -19,7 +19,7 @@ Setelah beberapa lama googling, ternyata tidak hanya menginstall font emoji, nam
 
 Buka terminal, dan ketikkan perintah ini:
 
-```
+```php
 sudo pacman -S noto-fonts-emoji
 ```
 
@@ -27,7 +27,7 @@ sudo pacman -S noto-fonts-emoji
 
 Buka terminal, dan ketikkan perintah ini:
 
-```
+```php
 sudo cat > /etc/fonts/local.conf
 ```
 
