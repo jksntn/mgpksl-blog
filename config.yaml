@@ -1,4 +1,4 @@
-baseurl: 'https://megapiksel.id'
+baseurl: '/'
 languageCode: en
 paginate: 10
 pluralizelisttitles: false
