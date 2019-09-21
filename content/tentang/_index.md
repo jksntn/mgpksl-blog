@@ -29,14 +29,34 @@ Oiya, podcast saya yang pasti ngomongin digital, teknologi, ah pokoknya berhubun
 - [🧤 Twitter][7]
 - [📋 Facebook][8]
 
-Ya segitu dulu perkenalan dengan saya. Semoga berkenan dan silakan dibaca [blog][9] saya. 🙏
+## Mengenai Website Megapiksel.id
 
-[1]: https://sync.id
-[2]: https://anchor.fm/mgpksl
-[3]: /podcast
-[4]: https://anchor.fm
-[5]: mailto:jaka@megapiksel.id
-[6]: https://twitter.com/mgpksl
+Website ini menggunakan static site generator [Hugo][10] sebagai web frameworknya, dan [netlify][11] sebagai tempat hosting sekaligus dns zone domain megapiksel.id. Mengapa saya menggunakan Hugo? Sebelumnya saya menggunakan [Jekyll][12] untuk membuat website, namun karena buildnya memang lebih lama, jadi saya memilih Hugo karena build timenya cepet banget. 
+
+Kebetulan template yang saya gunakan engga banyak javascriptnya sehingga mudah saya codingnya kalau mau menambah fitur di websitenya. Saya mengambil template seorang programmer beralamat di [hacdias.com][13].
+
+Untuk mempermudah menambah fitur-fitur di dalam website ini, saya menggunakan [tachyons.io][14] untuk mempermudah desain website ini. Tachyons sama seperti bootstrap, saya tinggal menggunakan class-class untuk mempercepat saya mendesain website ini. 
+
+{{< figure
+  class="full"
+  src="tachyonsdoc.png" 
+  caption="Monggo kalau ada yang mau belajar Tachyons" >}}
+
+---
+
+**Ya segitu dulu perkenalan dengan saya. Semoga berkenan dan silakan dibaca [blog][9] saya. 🙏**
+
+[1]: https://sync.id/
+[2]: https://anchor.fm/mgpksl/
+[3]: /podcast/
+[4]: https://anchor.fm/
+[5]: mailto:jaka@megapiksel.id/
+[6]: https://twitter.com/mgpksl/
 [7]: https://www.instagram.com/mgpksl
-[8]: https://facebook.com/mgpksl
-[9]: /blog
+[8]: https://facebook.com/mgpksl/
+[9]: /blog/
+[10]: https://gohugo.io/
+[11]: https://www.netlify.com/
+[12]: https://jekyllrb.com/
+[13]: https://hacdias.com/
+[14]: http://tachyons.io/
