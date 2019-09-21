@@ -20,6 +20,8 @@ params:
   favicon : '/img/favicon.ico?v=0'
   logo : '/img/logo.svg'
   image: '/img/header.png'
+  #notification: 'Hai, ada yang baru nih dari megapiksel.id,'
+  #notiflink: '/projects/studioruang/'
 
 # Disable categories since I don't use them.
 taxonomies:

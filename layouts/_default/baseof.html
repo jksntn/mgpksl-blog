@@ -4,6 +4,7 @@
   {{ partial "head" . }}
 </head>
 <body class='lh-title dark-gray sans-serif'>
+  {{ if .Site.Params.notification }}{{ partial "notification" . }}{{ else }}{{ end }}
   {{ partial "navbar" . }}
   {{ block "main" . }}{{ end }}
   {{ partial "footer" . }}
