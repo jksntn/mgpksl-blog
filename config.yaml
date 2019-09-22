@@ -1,4 +1,4 @@
-baseurl: 'https://megapiksel.id'
+baseurl: 'https://megapiksel.id/'
 languageCode: en
 paginate: 10
 pluralizelisttitles: false
@@ -9,6 +9,7 @@ summarylength: 30
 relativeURLs: true
 enableRobotsTXT: true
 pygmentsCodeFences: true
+canonifyURLs: true
 
 social:
   twitter: mgpksl
@@ -31,6 +32,10 @@ sitemap:
   changefreq: monthly
   filename: sitemap.xml
   priority: 0.5
+
+outputFormats.RSS:
+  mediatype: 'application/rss'
+  baseName: rss  
 
 menu:
   social:
