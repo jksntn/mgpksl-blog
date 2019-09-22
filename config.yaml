@@ -9,7 +9,7 @@ summarylength: 30
 relativeURLs: true
 enableRobotsTXT: true
 pygmentsCodeFences: true
-canonifyURLs: true
+#canonifyURLs: true
 
 social:
   twitter: mgpksl

@@ -21,7 +21,7 @@
 <meta name="twitter:card" content="summary_large_image"/>
 {{ else }}
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:image:src" content="{{ .Site.Params.Image }}"/>
+<meta name="twitter:image:src" content="{{ .Site.Params.image | absURL }}"/>
 {{ end }}
 
 <!-- Open Graph -->
@@ -34,7 +34,7 @@
 {{ with $img }}
 <meta property="og:image" content="{{ .Permalink }}" />
 {{ else }}
-<meta property="og:image" content="{{ .Site.Params.Image }}" />
+<meta property="og:image" content="{{ .Site.Params.image | absURL }}" />
 {{ end }}
 
 {{ if .IsPage }}
