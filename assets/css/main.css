@@ -5,6 +5,8 @@
   --dark-rose: #E91E63;
   --white-50: rgba(255, 255, 255, 0.50);
   --white-05: rgba(255, 255, 255, 0.05);
+  --mid-gray: #333333;
+  --tosca: #00a577;
 }
 
 * {
@@ -23,8 +25,17 @@ img {
 }
 
 a {
-  color: var(--blue);
+  color: var(--mid-gray);
   text-decoration: none;
+}
+
+article a {
+  color: var(--tosca);
+  font-weight: 600;
+}
+
+article a:hover{
+  opacity: 0.7;
 }
 
 .no-link,
