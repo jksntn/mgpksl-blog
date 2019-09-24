@@ -1,6 +1,6 @@
 :root {
   --light-blue: #96CCFF;
-  --blue: #357EDD;
+  --blue: #247BC6;
   --dark-blue: #00449E;
   --dark-rose: #E91E63;
   --white-50: rgba(255, 255, 255, 0.50);
@@ -30,7 +30,7 @@ a {
 }
 
 article a {
-  color: var(--tosca);
+  color: var(--blue);
   font-weight: 600;
 }
 
