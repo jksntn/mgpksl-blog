@@ -50,7 +50,7 @@ Untuk mempermudah menambah fitur-fitur di dalam website ini, saya menggunakan [t
 [2]: https://anchor.fm/mgpksl/
 [3]: /podcast/
 [4]: https://anchor.fm/
-[5]: mailto:jaka@megapiksel.id/
+[5]: mailto:jaka@lima.megapiksel.id/
 [6]: https://twitter.com/mgpksl/
 [7]: https://www.instagram.com/mgpksl
 [8]: https://facebook.com/mgpksl/
