@@ -72,7 +72,7 @@ figure img {
 
 .container {
   width: calc(100% - 4rem);
-  max-width: 38rem;
+  max-width: 43rem;
   margin-right: auto;
   margin-left: auto;
 }
