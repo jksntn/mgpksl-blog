@@ -42,7 +42,7 @@ menu:
     - name: Email
       weight: 1
       pre: '/img/email.svg'
-      url: mailto:jaka@lima.megapiksel.id
+      url: mailto:jaka@megapiksel.id
     - name: Podcast
       weight: 2
       pre: '/img/podcast.svg'
