@@ -15,7 +15,7 @@ Masalahnya ketika selesai instalasi, emoji yang biasa saya gunakan di blog tidak
 
 Setelah beberapa lama googling, ternyata tidak hanya menginstall font emoji, namun juga harus ada yang disesuaikan supaya emojinya muncul di Manjaro. Caranya cukup mudah:
 
-**Install noto-fonts-emoji**
+### Install noto-fonts-emoji
 
 Buka terminal, dan ketikkan perintah ini:
 
@@ -23,7 +23,7 @@ Buka terminal, dan ketikkan perintah ini:
 sudo pacman -S noto-fonts-emoji
 ```
 
-**Buat file local.conf**
+### Buat file local.conf
 
 Buka terminal, dan ketikkan perintah ini:
 

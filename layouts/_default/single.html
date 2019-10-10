@@ -3,10 +3,10 @@
 <main role='main'>
   <article class='container nested-copy-line-height'>
   {{ partial "article/header" . }}
-  {{ .Content }}
   {{ if eq .Type "post" }}
   {{ partial "article/footer" . }}
   {{ end }}
+  {{ .Content }}
   </article>
 </main>
 

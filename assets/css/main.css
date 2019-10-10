@@ -45,12 +45,12 @@ article a:hover{
 }
 
 ::-moz-selection {
-  background: var(--dark-rose);
+  background: var(--mid-gray);
   color: #fff;
 }
 
 ::selection {
-  background: var(--dark-rose);
+  background: var(--mid-gray);
   color: #fff;
 }
 
@@ -64,10 +64,11 @@ figure img {
 }
 
 .sans-serif {
-  font-family: '-apple-system, BlinkMacSystemFont, 
-    'avenir next', avenir, helvetica,
-    'helvetica neue', ubuntu, noto,
-    'segoe ui'', arial, sans-serif;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family:  'Poppins', arial, sans-serif;
 }
 
 .container {

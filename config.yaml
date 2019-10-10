@@ -4,12 +4,15 @@ paginate: 10
 pluralizelisttitles: false
 removePathAccents: true
 title: Megapiksel (@mgpksl)
-pygmentsStyle: native
 summarylength: 30
 relativeURLs: true
 enableRobotsTXT: true
-pygmentsCodeFences: true
 #canonifyURLs: true
+
+pygmentsCodeFences: true
+#pygmentsStyle: native
+pygmentsStyle: friendly
+
 
 social:
   twitter: mgpksl
