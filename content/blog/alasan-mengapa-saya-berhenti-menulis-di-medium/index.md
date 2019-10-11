@@ -19,7 +19,7 @@ Alasan mengapa saya kena soft banned medium memang masih jadi misteri sampai sek
 
 Kalau saya cari hal serupa di google, hanya ada kemungkinan yaitu saya melanggar terms and conditions Medium, tapi yang mana? Tidak ada kejelasan. Kalaupun ada post yang saya import, toh itu juga tulisan saya sendiri. 
 
-Dengan adanya hal ini membuat saya memutuskan untuk mengakhiri akun medium saya, walaupun cukup banyak pembaca dari medium itu. Dengan ini pula saya tidak berniat berlangganan di medium, karena saya tau cara membaca tulisan premium di Medium tanpa berlangganan $5 per bulan (secara legal). 
+Dengan adanya hal ini membuat saya memutuskan untuk mengakhiri akun medium saya, walaupun cukup banyak pembaca dari medium itu. Dengan ini pula saya tidak berniat berlangganan di medium, [karena saya tau cara membaca tulisan premium di Medium tanpa berlangganan $5 per bulan (secara legal). ][12]
 
 ## Sekarang apa?
 
@@ -73,3 +73,4 @@ Buat yang malas harus mengupdate blog melalui code editor seperti notepad++, sub
 [9]: https://gohugo.io/
 [10]: https://www.netlifycms.org/
 [11]: https://forestry.io/
+[12]: https://medium-unlimited.ml/
