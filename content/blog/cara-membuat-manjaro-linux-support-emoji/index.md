@@ -3,7 +3,7 @@ type:        post
 title:       Cara Membuat Manjaro Linux Support Emoji
 date:        2019-07-09
 description: >-
-    Cara supaya instalan manjaro Linux kamu support emoji.
+    Cara supaya instalan manjaro Linux kamu support menampilkan emoji seperti ini 😅😁😎.
 tags:
  - notes
  
