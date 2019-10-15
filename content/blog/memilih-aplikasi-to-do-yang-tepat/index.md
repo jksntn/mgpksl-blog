@@ -16,7 +16,7 @@ Saya akan membahas aplikasi todo yang ada di playstore, aplikasi ini juga multip
 ## [Evernote][1]
 
 {{< figure
-    src="evernote.jpg" 
+    src="thumb.jpg" 
     caption="Tampilan aplikasi Evernote" >}}
 
 Evernote ini sebenernya lebih dikenal dengan aplikasi atau tools note taking yang pernah fenomenal. Sebagai tool note taking, evernote ini fiturnya cukup lengkap. Bahkan banyak sekali integrasi dengan tools lainnya. Ada pilihan plan berbayar dengan fitur tambahan. Saya dulu sempat berlangganan sampai akhirnya mereka menaikkan harga premiumnya. Aplikasi yang mirip menurut saya adalah Google Keep.

@@ -9,10 +9,6 @@ tags:
  
 ---
 
-{{< figure
-    src="thumb.jpg" class="full"
-	caption="Photo by ekoherwantoro on Unsplash" >}}
-
 Jakarta sebagai ibukota negara, maka menjadi pusat segala aspek di Indonesia, bahkan aspek yang negatif (kriminal, rendahnya nilai sosial, dll). Itulah alasan mengapa teman-teman seperkuliahan saya memilih tidak bekerja di Jakarta. Dan sayapun mulai teracuni demikian, saya hanya melirik lowongan kerja di luar Jakarta. Namun entah mengapa link-link lowongan itu akhirnya malah merujuk ke Jakarta juga.
 
 Selama saya hidup di Jakarta, banyak hal-hal yang menyenangkan yang sebenernya saya cari-cari di kehidupan sebelumnya (maksud saya kehidupan ketika kuliah). Hal-hal tersebut saya rangkum di bawah.

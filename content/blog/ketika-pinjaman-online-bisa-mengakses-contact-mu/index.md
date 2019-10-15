@@ -12,7 +12,7 @@ tags:
 Beberapa waktu yang lalu saya kedapatan SMS yang berisi kurang lebih seperti gambar di bawah ini, intinya ada teman kantor lama yang meminjam uang tapi menurut pengirim SMS itu, teman saya ini sudah terlambat melakukan pembayaran, jadi saya diminta untuk mengingatkan dia. 
 
 {{< figure
-    src="thumb.jpg" 
+    src="fintech-sms.jpg" 
     caption="Screenshot SMS Saya" >}}
 
 Kalau dari bahasanya, udah jelas sih, berarti aplikasi ini taunya saya ini cuman temen, bukan keluarga. Saya punya dua kesimpulan, antara saya dijadikan penjamin oleh temen saya ini, atau aplikasi pemberi pinjaman ini membaca isi kontak temen saya itu. Karena setelah saya lihat app permissionnya, aplikasi-nya dapat membaca isi kontak.

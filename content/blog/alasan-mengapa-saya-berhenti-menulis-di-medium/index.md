@@ -9,10 +9,6 @@ tags:
  
 ---
 
-{{< figure
-    src="thumb.jpg" class="full"
-    caption="Photo by John Matychuk on Unsplash" >}}
-
 Setelah beberapa minggu akun medium saya kena soft banned, saya memutuskan untuk menghapus akun [medium][1] saya dan mulai mencari platform menulis lainnya. 
 
 Alasan mengapa saya kena soft banned medium memang masih jadi misteri sampai sekarang. Soft banned ini sendiri adalah akun saya bisa saya buka, namun orang lain tidak akan menemukan akun saya dan tulisan-tulisannya. Apabila ada orang lain yang mengakses link post tulisan saya, maka akan diarahkan ke halaman not-found. 
